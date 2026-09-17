@@ -40,6 +40,7 @@ class Solution {
                 else if (s.charAt(i + 1) == 'M')
                     next = 1000;
             }
+
             if (current < next)
                 result = result - current;
             else

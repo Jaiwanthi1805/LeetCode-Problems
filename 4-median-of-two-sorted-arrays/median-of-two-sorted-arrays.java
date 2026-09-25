@@ -36,18 +36,18 @@ class Solution {
             j++;
             k++;
         }
-        int length = arr.length;
+        int total = arr.length;
 
-        if (length % 2 == 1) {
+        if (total % 2 == 1) {
 
-            return arr[length / 2];
+            return arr[total / 2];
         }
         else {
 
-            int first = arr[length / 2 - 1];
-            int second = arr[length / 2];
+            int a = arr[total / 2 - 1];
+            int b = arr[total / 2];
 
-            return (first + second) / 2.0;
+            return (a + b) / 2.0;
         }
     }
 }
